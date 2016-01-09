@@ -47,16 +47,20 @@ nav a + a:before{
     color: #EFEFEF;
 }
 
-/* Hero image Styling */
-hero-image {
-  max-width: 30%;
-  height: 100%;
+/* Main Content | Hero Image Styling */
+.hero-image {
   float: left;
-  
+  padding-top: 61px;
+  max-width: 40%;
 }
 
-/* Main Content Styling */
-about {
-  max-width: 65%;
+.hero-image img {
+  max-width: 100%
+}
+
+/* Main Content | About Styling */
+.about {
   float: right;
+  padding-top: 61px;
+  max-width: 60%;
 }
