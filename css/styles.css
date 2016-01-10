@@ -12,12 +12,14 @@ body {
   margin: 0;
   padding: 0;
   background-color: #EFEFEF; 
+  color: #010101;
   font-family: "Avenir Next", sans-serif;
 }
 
 /* Nav Bar Styling */
 nav {
   background-color: #4178bf;
+  color: #EFEFEF;
   height: 61px;
   width: 100%;
   position: fixed;
@@ -32,7 +34,6 @@ nav ul {
 
 nav li {
   display: inline-block;
-  color: #EFEFEF;
   font-weight: 600;
   letter-spacing: 1px;
 }
@@ -44,7 +45,6 @@ nav a {
 nav a + a:before{
     content: " | ";
     padding: 0 10px;
-    color: #EFEFEF;
 }
 
 /* Main Content | Hero Image Styling */
@@ -63,4 +63,11 @@ nav a + a:before{
   float: right;
   padding-top: 61px;
   max-width: 60%;
+}
+
+/* Footer Styling */
+footer {
+  height: 30px;
+  background-color: #4178bf;
+  color: #EFEFEF;
 }
