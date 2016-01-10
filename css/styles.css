@@ -52,7 +52,7 @@ nav a + a:before{
 .hero-image {
   float: left;
   padding-top: 61px;
-  max-width: 40%;
+  width: 40%;
 }
 
 .hero-image img {
@@ -62,13 +62,19 @@ nav a + a:before{
 /* Main Content | About Styling */
 .about {
   float: right;
+  width: 60%;
   padding-top: 61px;
-  max-width: 60%;
+}
+
+.intro {
+  padding-left: 20px;
 }
 
 /* Footer Styling */
 footer {
+  clear: both;
   height: 30px;
+  line-height: 30px;
   background-color: #4178bf;
   color: #EFEFEF;
 }
