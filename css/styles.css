@@ -52,7 +52,6 @@ nav a + a:before{
 .hero-image {
   float: left;
   width: 40%;
-  min-height: max-content;
 }
 
 .hero-image img {
