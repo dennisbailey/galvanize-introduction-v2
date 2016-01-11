@@ -90,6 +90,7 @@ nav a + a:before{
 
 
 .toc {
+  position: fixed;
   float: left;
   width: 20%;
 }
