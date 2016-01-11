@@ -88,6 +88,22 @@ nav a + a:before{
   width: 50px;
 }
 
+
+.toc {
+  float: left;
+  width: 20%;
+}
+
+.toc li {
+  list-style: none;
+  font-size: x-large;
+}
+
+.content {
+  float: right;
+  width: 75%;
+}
+
 /* Footer Styling */
 footer {
   clear: both;
