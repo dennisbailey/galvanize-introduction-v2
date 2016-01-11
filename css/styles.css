@@ -55,6 +55,7 @@ nav a + a:before{
 }
 
 .hero-image img {
+  display: block;
   max-width: 100%;
 }
 
