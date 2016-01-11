@@ -102,6 +102,7 @@ nav a + a:before{
 .content {
   float: right;
   width: 75%;
+  margin-left: 20px;
 }
 
 /* Footer Styling */
@@ -116,8 +117,4 @@ footer {
 
 footer p {
   margin: 0 10px;
-}
-
-.content {
-  margin-left: 20px;
 }
