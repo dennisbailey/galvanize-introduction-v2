@@ -99,6 +99,11 @@ nav a + a:before{
   font-size: x-large;
 }
 
+.toc a {
+  text-decoration: none;
+  line-height: 40px;
+}
+
 .content {
   float: right;
   width: 75%;
