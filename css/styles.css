@@ -89,10 +89,22 @@ nav a + a:before{
 }
 
 
+.content {
+  float: left;
+  width: 75%;
+  margin-left: 20px;
+}
+
 .toc {
   position: fixed;
-  float: left;
-  width: 20%;
+  top: 61px;
+  right: 0;
+  float: right;
+  width: 20%;  
+}
+
+.toc ul {
+  padding-left: 0;
 }
 
 .toc li {
@@ -103,12 +115,6 @@ nav a + a:before{
 .toc a {
   text-decoration: none;
   line-height: 40px;
-}
-
-.content {
-  float: right;
-  width: 75%;
-  margin-left: 20px;
 }
 
 /* Footer Styling */
